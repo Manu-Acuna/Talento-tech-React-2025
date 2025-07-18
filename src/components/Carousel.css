@@ -1,0 +1,70 @@
+.carousel-container {
+    width: 100%;
+    margin-top: 1rem; 
+}
+
+.carousel-image {
+    width: 100vw;
+    height: 550px;
+    object-fit: contain; /* Esto evita que la imagen se deforme. Puede recortarla. */
+    object-position: center; /* Centra la imagen dentro de su contenedor */
+}
+
+/* Opcional: Para estilizar los puntos de navegación */
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #007bff; /* Un color más llamativo para el punto activo */
+}
+
+/*
+  Estilos para los botones de navegación laterales (flechas) del carrusel.
+  Estos estilos hacen que las flechas por defecto de react-slick sean más grandes
+  y visibles sobre las imágenes.
+*/
+.slick-prev,
+.slick-next {
+    z-index: 1; /* Asegura que estén por encima de las imágenes */
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev {
+    left: 25px; /* Posición desde la izquierda */
+}
+
+.slick-next {
+    right: 25px; /* Posición desde la derecha */
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 35px; /* Aumenta el tamaño del icono de la flecha */
+    color: white;
+    opacity: 0.75;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.6); /* Sombra para que se destaque del fondo */
+    transition: opacity 0.3s ease;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        width: 95%;
+        padding: 0 10px;
+        margin: auto;
+    }
+
+    .carousel-image {
+        /* Usar vh (viewport height) para que la altura se adapte mejor a la pantalla del móvil */
+        max-height: 40vh;
+    }
+}

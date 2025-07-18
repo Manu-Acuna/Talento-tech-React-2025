@@ -1,0 +1,28 @@
+.product-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 300px; 
+}
+
+.product-loader-spinner {
+  border: 8px solid #f3f3f3; 
+  border-top: 8px solid #5a67d8; 
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1.5s linear infinite;
+}
+
+.product-loader-container p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Notebook gamer MSI Cyborg",
+        "description": "Potente laptop para juegos con RTX 3080",
+        "price": 1500,
+        "stock": 5,
+        "image_url": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_41727_Notebook_Gamer_MSI_Cyborg_14_A13VF-018US_14__16_10_FHD__144Hz_i7-13620H_RTX4060_16GB_DDR5_512SSD_NVMe_Win11_bfda0820-grn.jpg",
+        "category_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Notebook Asus ROG Strix",
+        "description": "16 pulgadas procesador intel core Ultra 9 RTX 5070 32GB RAM",
+        "price": 3200,
+        "stock": 4,
+        "image_url": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_47124_Notebook_Asus_ROG_Strix_G16_G615LR-S5072W_16__Ultra_9_275HX_32GB_SSD_1TB_RTX_5070_Ti_2.5K_WQXGA_Win11_dece5bdf-grn.jpg",
+        "category_id": 1
+    },
+    {
+        "id": 3,
+        "name": "Celular Samsung Galaxy S24 FE 256GB Mint",
+        "description": "El Galaxy S24 FE ofrece una capacidad de almacenamiento de 256 GB para tus aplicaciones, fotos y videos. ",
+        "price": 1400,
+        "stock": 30,
+        "image_url": "https://images.fravega.com/f300/85f38779844fa1abe3901ef32ca40181.jpg.webp",
+        "category_id": 2
+    },
+    {
+        "id": 4,
+        "name": "Celular Samsung Galaxy S25 Ultra 512GB Titanium Black",
+        "description": "celular Samsung Galaxy S25 Ultra posee una impresionante pantalla de 6,9 pulgadas y resolución Quad HD+",
+        "price": 2800,
+        "stock": 10,
+        "image_url": "https://images.fravega.com/f300/a796f080ca76670372a70ec77795c2e3.jpg.webp",
+        "category_id": 2
+    },
+    {
+        "id": 5,
+        "name": "Notebook Asus Vivobook 15",
+        "description": "15 pulgadas procesador Ryzen 7 5825U 16GB RAM SSD 512",
+        "price": 890,
+        "stock": 12,
+        "image_url": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_46549_Notebook_Asus_Vivobook_15_M1502YA-NJ590W_15.6__FHD_R7-5825U_16GB_SSD_512GB_Win11_Espa__ol_MIL-STD_810H_military-grade_standard_c0af72d0-grn.jpg",
+        "category_id": 1
+    },
+    {
+        "id": 6,
+        "name": "Notebook Acer Aspire 3 14",
+        "description": "14 pulgadas intel core i3 8GB RAM SSD 128GB",
+        "price": 400,
+        "stock": 2,
+        "image_url": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_44770_Notebook_Acer_Aspire_3_A315-44P-R7GS_15.6__R7-5700U_16GB_SSD_512GB_FHD_Win11_e2c50c10-grn.jpg",
+        "category_id": 1
+    },
+    {
+        "id": 7,
+        "name": "Notebook Exo Smart XQ3J",
+        "description": "15.6 pulgadas intel i3 1215U 8GB RAM SSD 256GB",
+        "price": 437,
+        "stock": 11,
+        "image_url": "https://mexx-img-2019.s3.amazonaws.com/Notebook-Exo-Smart-R41-LT4-Celeron-N4020-4Gb-Ssd-128Gb-14-Win11_49266_1.jpeg",
+        "category_id": 1
+    },
+    {
+        "id": 8,
+        "name": "Samsung Galaxy A56 5g 256 GB 8 GB RAM Awesome Graphite",
+        "description": "El Samsung Galaxy A56 5G es la elección perfecta para quienes buscan un smartphone potente y elegante.",
+        "price": 450,
+        "stock": 3,
+        "image_url": "https://http2.mlstatic.com/D_NQ_NP_905357-MLA83308767335_032025-O.webp",
+        "category_id": 2
+    },
+    {
+        "id": 9,
+        "name": "Apple iPhone 13 (128 GB) - Azul medianoche",
+        "description": "Memoria RAM: 4 GB, Memoria interna: 128 GB",
+        "price": 990,
+        "stock": 17,
+        "image_url": "https://http2.mlstatic.com/D_NQ_NP_973345-MLA47781591382_102021-O.webp",
+        "category_id": 2
+    }
+]
