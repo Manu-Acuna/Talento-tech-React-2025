@@ -1,0 +1,28 @@
+// Estos datos de usuarios los cargo a traves de mockAPI
+
+[
+  {
+    "email": "admin@example.org",
+    "password": "admin1234",
+    "role": "Admin",
+    "id": "1"
+  },
+  {
+    "email": "pepito@example.org",
+    "password": "jose1234",
+    "role": "Admin",
+    "id": "2"
+  },
+  {
+    "email": "usuario3@example.org",
+    "password": "1234",
+    "role": "Admin",
+    "id": "3"
+  },
+  {
+    "email": "usuario4@example.org",
+    "password": "hola1234",
+    "role": "Cliente",
+    "id": "4"
+  }
+]
