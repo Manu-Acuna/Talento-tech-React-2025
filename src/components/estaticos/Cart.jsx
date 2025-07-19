@@ -12,15 +12,15 @@ const SideCart = ({ isOpen, onClose }) => {
         decreaseQuantity 
     } = useCart();
 
-    // Evitamos renderizar si el carrito no debe estar visible
+
     if (!isOpen) {
         return null;
     }
 
     return (
-        // 1. El overlay (fondo) ahora es el contenedor principal. Al hacer clic en él, se cierra el carrito.
+        
         <div className={`side-cart-overlay ${isOpen ? 'open' : ''}`} onClick={onClose}>
-            {/* 2. El panel del carrito es un hijo. Detenemos la propagación del clic para que no "burbujee" hacia el overlay. */}
+            
             <div className={`side-cart ${isOpen ? 'open' : ''}`} onClick={(e) => e.stopPropagation()}>
                 <div className="side-cart-header">
                     <h2>Tu Carrito</h2>
@@ -65,7 +65,6 @@ const SideCart = ({ isOpen, onClose }) => {
                         <button onClick={clearCart} className="clear-button">
                             Vaciar Carrito
                         </button>
-                        {/* Puedes añadir un botón para finalizar la compra aquí */}
                     </div>
                 )}
             </div>
